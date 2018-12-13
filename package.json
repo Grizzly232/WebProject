@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "next start -p 8000",
-	"heroku-postbuild": "npm run build"
-  },
+  "dev": "next",
+  "build": "next build",
+  "start": "next start -p $PORT",
+  "heroku-postbuild": "npm run build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
